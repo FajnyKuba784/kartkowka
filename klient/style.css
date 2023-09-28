@@ -1,0 +1,54 @@
+#body{
+
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 15vh 70vh 15vh;
+    grid-template-areas: 
+    " gora gora"
+    " lewa main"
+    " dol dol";
+
+    margin: 0px;
+
+}
+
+#gora{
+
+    grid-area: gora;
+
+}
+
+#lewo{
+
+    grid-area: lewa;
+
+}
+
+#main{
+
+    grid-area: main ;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80% 20%;
+    grid-template-areas: 
+    "divy"
+    "buttony";
+
+}
+
+#dol{
+
+    grid-area: dol;
+}
+
+#divy{
+
+
+
+    grid-area: divy;
+}
+#buttony{
+
+    grid-area: buttony;
+
+}
